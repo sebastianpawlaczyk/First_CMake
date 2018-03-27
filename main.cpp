@@ -2,8 +2,10 @@
 #include<functional>
 
 int main(){
-
-	std::cout<<"Hello World"<<std::endl;
-
+	
+	auto i = 0;
+	for(; i < 10; i++){
+		std::cout<<"Hello World"<<std::endl;
+	}
  return 0;
 }
